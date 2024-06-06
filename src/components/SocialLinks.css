@@ -1,0 +1,26 @@
+.hi {
+  display: flex;
+  flex-direction: column;
+  min-height: 20vh;
+}
+.footer-icons {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    padding: 0;
+  }
+  
+  .footer-icons .social-icons {
+    margin: 0 15px;
+  }
+  
+  .footer-icons .social-icons a {
+    color: white;
+    font-size: 2em;
+    transition: color 0.3s ease-in-out; /* Smooth transition for color change */
+  }
+  
+  .footer-icons .social-icons a:hover {
+    color: grey; /* Change to your desired hover color */
+  }
+  

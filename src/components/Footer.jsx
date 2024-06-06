@@ -16,10 +16,9 @@ const Footer = () => {
           <h1 className="text-3xl">Welcome to work manager</h1>
           <p>
             Welcome to Work Manager, your ultimate solution for organizing and
-            managing your work efficiently. Work Manager provides the tools you
-            need to streamline your workflow, track tasks, and collaborate
-            seamlessly with your colleagues.
+            managing your work efficiently. 
           </p>
+          <strong>Created By Mohit Kumar</strong>
         </div>
         <div style={{ textAlign: "center", margin: "20px 0" }}>
           <h1>Important Links</h1>

@@ -12,8 +12,6 @@ export const metadata = {
 export default function Home() {
   return (
     <div>
-      {/* banner section  */}
-
       <BannerSection />
       <FeatureSection />
       <ActionSection />

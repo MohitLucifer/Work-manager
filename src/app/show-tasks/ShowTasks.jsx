@@ -38,9 +38,9 @@ const ShowTasks = () => {
   }
 
   return (
-    <div className="grid grid-cols-12 mt-3">
+    <div className="grid grid-cols-12 mt-3" style={{ height: '100vh', width: '50%', margin: '0 auto', paddingLeft: '20px', paddingRight: '20px', display: 'flex', flexDirection: 'column' }}>
       <div className="col-span-6 col-start-4">
-        <h1 className="text-3xl mb-3 ">Your tasks ( {tasks.length} )</h1>
+        <h1 className="text-3xl mb-3 text-center  " style={{ marginTop: '20px' }}>Your tasks ( {tasks.length} )</h1>
 
         {tasks.map((task) => (
           <Task

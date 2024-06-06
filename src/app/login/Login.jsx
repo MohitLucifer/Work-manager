@@ -42,7 +42,7 @@ const Login = () => {
   };
 
   return (
-    <div className="grid grid-cols-12">
+    <div className="grid grid-cols-12" style={{ height: '68vh', width: '25%', margin: '0 auto', paddingLeft: '20px', paddingRight: '20px', display: 'flex', flexDirection: 'column' }}>
       <div className="col-span-4 col-start-5 ">
         <div className="py-5"></div>
 

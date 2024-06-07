@@ -1,0 +1,14 @@
+/* UserProfile.css */
+.user-profile-container {
+    background-image: url('./back.jpeg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    
+    width: 100vw;
+    min-height: calc(100vh - 8rem);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
